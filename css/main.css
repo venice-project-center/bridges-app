@@ -1,0 +1,145 @@
+body{
+	width:100%;
+	height:100%;
+}
+
+body,p,a,span,div,h1,h2,h3,h4,h5,h6{
+  font-family: 'Gilroy';
+}
+
+slider{
+	margin: 5px;
+}
+
+.dark-mode{
+  background-color: black;
+  color: white
+}
+
+.header-vpc{
+  z-index: 5;
+  display: grid;
+  grid-template-areas: 'how title vpc';
+  grid-template-columns: 1fr 1fr 1fr;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  line-height: 20px;
+}
+
+.my_container h1{
+  color:white;
+  text-align: center;
+  margin: 0;
+}
+
+.my_container p{
+  text-align: center;
+}
+
+.my_container h2{
+  text-align: center;
+}
+
+.text-header-vpc{
+    font-size: 18px;
+    text-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+}
+
+.header-visit-vpc{
+    grid-area: vpc;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: right;
+    margin-right: 15px;
+    color: white;
+}
+
+
+
+
+#map{
+  width:100%;
+  height: calc(100vh - 61px);
+}
+
+
+
+.container_about{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-areas: 'img text';
+  margin-left: 15px;
+  margin-right: 15px;
+  place-self: center;
+}
+
+.img_container{
+  grid-area: img;
+  place-self: center;
+}
+
+.img_container img{
+  width: 95%;
+}
+
+.text_container{
+  grid-area: text;
+  place-self: center;
+  
+}
+
+.text_container h2{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.text_container p{
+  margin: 0;
+}
+
+.title h1{
+  text-align: center;
+  margin-bottom: 10px;
+  margin-top: 10px; 
+}
+
+.guida{
+  margin-top: 15px;
+  border: solid 1px #ffffff;
+  background: transparent;
+  border-radius: 50px;
+  padding: .7em 2.4em;
+  cursor: pointer;
+  transition: .3s ease-in-out;
+  min-width: 120px;
+  display: inline-grid;
+  max-height: 40px;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+
+.guida span{
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 16px;
+  letter-spacing: .05em;
+  transition: .3s ease-in-out;
+  margin: 0 !important;
+  place-self: center;
+}
+
+.back{
+  text-align: center;
+  margin-top: 30px;
+}
+
+a:hover{
+  color:unset !important;
+  text-decoration: none !important;
+}
+
+a:focus{
+  color:unset !important;
+  text-decoration: none !important;
+}
